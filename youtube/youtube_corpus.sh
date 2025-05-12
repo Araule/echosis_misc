@@ -80,4 +80,7 @@ while read -r videoid; do
 done < temp.csv
 
 # clean corpus
-python youtube_cleaner.py
+python youtube_cleaner.py ./"$youtuber"/videos.csv videos
+python youtube_cleaner.py ./"$youtuber"/videos_withcaptions.csv videos_withcaptions
+python youtube_cleaner.py ./"$youtuber"/comments.csv comments
+python youtube_cleaner.py ./"$youtuber"/commenters.csv commenters
