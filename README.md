@@ -1,6 +1,6 @@
 # Echosis Misc
 
-Some scripts that might be useful to get corpora.
+Some scripts useful to get corpora.
 
 ## YouTube
 
